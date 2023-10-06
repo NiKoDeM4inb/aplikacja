@@ -1,6 +1,4 @@
 <?php
-    $myfile = fopen("newfile.txt", "w")
-                or die("Unable to open file!");
-    echo fgets($myfile);
-    fclose($myfile);
+    $d=mktime(18,8,2004);
+    echo "Stworzona data to" . date("d-m-y", $d);
 ?>
